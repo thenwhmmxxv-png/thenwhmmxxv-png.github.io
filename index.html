@@ -4,77 +4,567 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#3A0463">
-  <meta name="description" content="Explore wellness sessions, massage therapy training, complementary courses, and business support at Narmae Wellness Hub in Antipolo, Philippines.">
+  <meta name="description" content="Narmae Wellness Hub offers wellness services, massage therapy, training, and business support in Antipolo, Philippines.">
   <title>Narmae Wellness Hub | Wellness, Learning & Growth</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
   <style>
-    :root{--ink:#090711;--panel:#15111d;--paper:#fbf9fd;--muted:#c5bbce;--purple:#3A0463;--purple2:#60139A;--lav:#d9b8f5;--blue:#9fc8ff;--pink:#efa8e2;--line:rgba(255,255,255,.16);--max:1160px;--mx:50%;--my:45%}
-    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--ink);color:var(--paper);font:16px/1.65,'DM Sans',sans-serif;overflow-x:hidden}a{color:inherit}button,input,select,textarea{font:inherit}.wrap{width:min(var(--max),calc(100% - 40px));margin-inline:auto}.skip{position:absolute;left:-9999px;top:8px;background:#fff;color:#000;padding:10px;z-index:99}.skip:focus{left:10px}:focus-visible{outline:3px solid #d9b8f5;outline-offset:3px}
-    .progress{position:fixed;inset:0 auto auto 0;height:3px;width:0;background:linear-gradient(90deg,#3A0463,#aa69e1,#9fc8ff,#efa8e2);z-index:100;box-shadow:0 0 15px #9f4adc}.topbar{position:sticky;top:0;z-index:30;background:rgba(9,7,17,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{font:700 1rem/1.15 Manrope,sans-serif;letter-spacing:.03em;text-decoration:none}.brand span{display:block;color:#d9b8f5;font:600 .65rem/1.5 'DM Sans',sans-serif;letter-spacing:.16em}.links{display:flex;align-items:center;gap:19px}.links a,.mobile-links a{font-size:.8rem;text-decoration:none;color:#eee7f5;transition:color .2s}.links a:hover,.links a[aria-current="location"],.mobile-links a:hover{color:#d9b8f5}.nav-cta,.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 20px;border-radius:999px;background:linear-gradient(110deg,var(--purple),var(--purple2));border:1px solid rgba(255,255,255,.25);color:#fff;font-weight:700;text-decoration:none;box-shadow:0 6px 24px rgba(96,19,154,.25);transition:transform .2s,filter .2s,box-shadow .2s}.nav-cta{min-height:42px;padding:9px 15px;font-size:.78rem}.button:hover,.nav-cta:hover{transform:translateY(-2px);filter:brightness(1.17);box-shadow:0 10px 32px rgba(126,46,184,.38)}.button.secondary{background:rgba(255,255,255,.07);border:1px solid rgba(217,184,245,.5);box-shadow:none}.mobile-nav{display:none;position:relative}.mobile-nav summary{list-style:none;border:1px solid rgba(217,184,245,.55);border-radius:999px;padding:8px 13px;background:var(--purple);cursor:pointer}.mobile-nav summary::-webkit-details-marker{display:none}.mobile-links{position:absolute;right:0;top:50px;width:min(290px,90vw);display:grid;gap:4px;padding:12px;border:1px solid var(--line);border-radius:14px;background:#171020;box-shadow:0 16px 45px #000b}.mobile-links a{padding:10px;border-radius:8px}
-    .hero{position:relative;min-height:min(850px,calc(100svh - 74px));display:grid;place-items:center;overflow:hidden;text-align:center;border-bottom:1px solid var(--line);isolation:isolate;background:radial-gradient(ellipse at var(--mx) var(--my),rgba(96,19,154,.38),transparent 36%),radial-gradient(ellipse at 50% 55%,rgba(39,23,56,.5),transparent 60%),#07060b}.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;pointer-events:none;filter:blur(2px);z-index:-1}.hero:before{width:340px;height:340px;left:-120px;top:18%;background:radial-gradient(circle,rgba(96,19,154,.32),transparent 70%);animation:floatOrb 13s ease-in-out infinite alternate}.hero:after{width:420px;height:420px;right:-170px;top:5%;background:radial-gradient(circle,rgba(82,91,184,.25),transparent 70%);animation:floatOrb 16s ease-in-out infinite alternate-reverse}.hero-copy{position:relative;z-index:3;width:min(950px,calc(100% - 40px));padding:84px 0 260px;animation:heroEnter 1s both}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(217,184,245,.55);border-radius:999px;padding:7px 14px;background:rgba(58,4,99,.48);font-size:.74rem;letter-spacing:.08em}.dot{width:8px;height:8px;border-radius:50%;background:#8ff0c2;box-shadow:0 0 14px #8ff0c2;animation:pulse 1.8s infinite}.hero h1{font:300 clamp(3rem,8vw,6.6rem)/1.04 Manrope,sans-serif;letter-spacing:-.06em;margin:28px auto 16px}.purp{color:#d8b3f5;text-shadow:0 0 35px rgba(166,88,220,.28)}.hero h1 .blue{color:var(--blue);text-shadow:0 0 30px rgba(115,167,255,.25)}.hero p{max-width:720px;margin:0 auto 28px;color:#ded6e6;font-size:clamp(1rem,2vw,1.22rem)}.hero-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}.stream{position:absolute;left:0;right:0;bottom:-2px;height:43%;min-height:240px;width:100%;opacity:.98;z-index:1}.grid-lines{opacity:.27}.stream .ribbon{stroke-dasharray:12 20;animation:flowline 14s linear infinite}.stream .ribbon:nth-child(2){animation-duration:18s;animation-direction:reverse}.stream .ribbon:nth-child(3){animation-duration:22s}.stream .gridmove{animation:gridBreath 8s ease-in-out infinite alternate}.hero-note{position:absolute;bottom:20px;left:15px;right:15px;z-index:4;color:#c5bbce;font-size:.67rem;letter-spacing:.13em;text-transform:uppercase}.spark{position:absolute;width:3px;height:3px;border-radius:50%;background:#e2c6ff;box-shadow:0 0 12px 3px #8b3fc0;animation:sparkle 4s ease-in-out infinite}.spark.s1{left:18%;top:30%}.spark.s2{right:20%;top:26%;animation-delay:1.3s}.spark.s3{left:70%;top:48%;animation-delay:2.1s}.spark.s4{left:30%;top:56%;animation-delay:.7s}
-    .section{padding:88px 0}.section.soft{background:linear-gradient(180deg,#100b17,#0b0910)}.section-head{max-width:760px;margin-bottom:34px}.kicker{color:#d9b8f5;font-size:.73rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase}.section h2{font:400 clamp(2.1rem,5vw,3.8rem)/1.1 Manrope,sans-serif;letter-spacing:-.05em;margin:10px 0 14px}.section-head p{color:var(--muted);margin:0}.accent{color:#d9b8f5}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{position:relative;overflow:hidden;background:linear-gradient(145deg,rgba(96,19,154,.24),rgba(255,255,255,.035));border:1px solid rgba(217,184,245,.28);border-radius:16px;padding:24px;min-width:0;transition:transform .25s,border-color .25s,box-shadow .25s;transform-style:preserve-3d}.card:before{content:"";position:absolute;inset:-1px;background:radial-gradient(circle at var(--cx,50%) var(--cy,50%),rgba(165,105,218,.22),transparent 42%);opacity:0;transition:opacity .25s;pointer-events:none}.card:hover{border-color:#b77ae1;transform:translateY(-5px);box-shadow:0 18px 40px rgba(46,8,70,.3)}.card:hover:before{opacity:1}.card>*{position:relative}.icon{font-size:1.55rem}.card h3{font:600 1.18rem/1.3 Manrope,sans-serif;margin:12px 0 8px}.card p{color:#d0c8d7;font-size:.9rem;margin:0 0 15px}.text-link{color:#d9b8f5;font-weight:700;text-decoration:none;font-size:.85rem}.text-link:hover{text-decoration:underline}.pill{display:inline-flex;padding:5px 10px;border:1px solid rgba(217,184,245,.5);border-radius:999px;background:rgba(58,4,99,.38);color:#f0dcff;font-size:.7rem;letter-spacing:.05em}.split{display:grid;grid-template-columns:1fr 1fr;gap:20px}.feature{padding:30px;border-radius:20px;background:linear-gradient(145deg,rgba(96,19,154,.32),#17111e 70%);border:1px solid rgba(217,184,245,.3);transition:transform .25s,border-color .25s}.feature:hover{transform:translateY(-4px);border-color:#aa68d1}.feature h3{font:600 1.6rem Manrope,sans-serif;margin:11px 0}.feature p,.list{color:#d0c8d7}.list{padding-left:20px}.list li{padding:4px 0}.rate-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.rate{background:#17111e;border:1px solid rgba(217,184,245,.26);border-radius:14px;padding:18px}.rate h3{font-size:.95rem;margin:0 0 5px}.price{font:700 1.45rem Manrope,sans-serif;color:#e4c8fa;margin:10px 0 3px}.rate p,.fine{font-size:.78rem;color:#c5bbce;margin:5px 0}.notice{padding:15px 18px;border-left:4px solid #9a42ce;background:rgba(96,19,154,.28);color:#eee3f5;border-radius:0 10px 10px 0;margin-top:18px;font-size:.85rem}.tag-list{display:flex;flex-wrap:wrap;gap:8px}.tag-list span{padding:7px 11px;background:rgba(58,4,99,.4);border:1px solid rgba(217,184,245,.34);border-radius:999px;font-size:.78rem;color:#f0e5f7;transition:background .2s,transform .2s}.tag-list span:hover{background:#60139A;transform:translateY(-2px)}.details{border:1px solid rgba(217,184,245,.28);border-radius:12px;background:rgba(255,255,255,.035);margin:12px 0;overflow:hidden}.details summary{cursor:pointer;padding:15px 18px;font-weight:700}.details summary::marker{color:#d9b8f5}.details-content{padding:0 18px 17px;color:#d0c8d7}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;counter-reset:step}.step{counter-increment:step;padding:23px;border-top:2px solid rgba(217,184,245,.42)}.step:before{content:'0' counter(step);display:block;color:#d9b8f5;font:600 1.1rem Manrope,sans-serif;margin-bottom:10px}.step h3{margin:0 0 6px;font-size:1rem}.step p{margin:0;color:var(--muted);font-size:.85rem}.about{display:grid;grid-template-columns:.8fr 1.2fr;gap:35px;align-items:center}.about-mark{min-height:280px;display:grid;place-items:center;border:1px solid rgba(217,184,245,.36);border-radius:20px;background:radial-gradient(ellipse,rgba(96,19,154,.48),transparent 68%),#100b17;font:300 clamp(4rem,10vw,7rem) Manrope,sans-serif;letter-spacing:-.1em;color:#eedafa;animation:markGlow 7s ease-in-out infinite alternate}.about-copy p{color:#d0c8d7}.contact-box{padding:clamp(24px,5vw,52px);border-radius:22px;border:1px solid rgba(217,184,245,.48);background:linear-gradient(135deg,rgba(58,4,99,.55),rgba(96,19,154,.22) 46%,#17111e);box-shadow:0 16px 55px rgba(58,4,99,.22)}.contact-box h2{max-width:670px}.contact-box p{color:#ded6e6;max-width:740px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:22px}.field{display:grid;gap:6px}.field.full{grid-column:1/-1}.field label{font-size:.8rem;font-weight:700;color:#f4eaff}.field input,.field select,.field textarea{width:100%;min-height:48px;padding:11px 13px;border:1px solid rgba(217,184,245,.38);border-radius:10px;background:#0d0912;color:#fff}.field textarea{min-height:105px;resize:vertical}.field input::placeholder,.field textarea::placeholder{color:#a99db0}.consent{display:flex;align-items:flex-start;gap:10px;color:#e7ddec;font-size:.78rem;margin:15px 0}.consent input{margin-top:5px;accent-color:#8f39c1}.form-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.form-help{font-size:.77rem;color:#d0c8d7;margin:12px 0 0}.pay-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}.pay-card{padding:19px;border:1px solid rgba(217,184,245,.34);border-radius:14px;background:rgba(9,7,17,.7)}.pay-card h3{font-size:1rem;margin:0}.pay-number{font:700 1.25rem Manrope,sans-serif;letter-spacing:.04em;color:#f0dcff;margin:8px 0}.copy-btn{min-height:40px;padding:8px 14px;background:#60139A;color:#fff;border:1px solid rgba(255,255,255,.26);border-radius:999px;cursor:pointer;font-weight:700}.copy-btn:hover{background:#7c2db3}.pay-disclaimer{color:#e0d5e8;font-size:.8rem;margin:14px 0 0}.footer{border-top:1px solid var(--line);padding:26px 0;color:#c5bbce;font-size:.79rem}.footer-inner{display:flex;gap:15px;justify-content:space-between;flex-wrap:wrap}.footer a{color:#e0c3f4;text-decoration:none}.reveal{opacity:0;transform:translateY(25px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.8,.2,1)}.reveal.in-view{opacity:1;transform:translateY(0)}.reveal-delay-1{transition-delay:.08s}.reveal-delay-2{transition-delay:.16s}.reveal-delay-3{transition-delay:.24s}.to-top{position:fixed;right:20px;bottom:20px;z-index:25;width:48px;height:48px;border-radius:50%;border:1px solid rgba(217,184,245,.55);background:linear-gradient(145deg,#3A0463,#60139A);color:#fff;font-size:1.2rem;box-shadow:0 8px 26px #0008;cursor:pointer;opacity:0;pointer-events:none;transform:translateY(12px);transition:.25s}.to-top.visible{opacity:1;pointer-events:auto;transform:translateY(0)}
-    @keyframes heroEnter{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@keyframes pulse{50%{box-shadow:0 0 23px 5px #8ff0c2;transform:scale(1.16)}}@keyframes flowline{to{stroke-dashoffset:-450}}@keyframes gridBreath{to{opacity:.45;transform:translateY(-5px)}}@keyframes floatOrb{to{transform:translate(50px,30px) scale(1.18)}}@keyframes sparkle{0%,100%{opacity:.2;transform:scale(.6)}50%{opacity:1;transform:scale(1.4)}}@keyframes markGlow{to{box-shadow:0 0 55px rgba(96,19,154,.24);filter:hue-rotate(12deg)}}
-    @media(max-width:850px){.links{display:none}.mobile-nav{display:block}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rate-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-copy{padding-bottom:220px}.split,.about{grid-template-columns:1fr}.about-mark{min-height:190px}.steps{grid-template-columns:1fr}}
-    @media(max-width:560px){.wrap{width:calc(100% - 28px)}.nav{min-height:66px}.nav-cta{display:none}.hero{min-height:calc(100svh - 66px)}.hero-copy{width:calc(100% - 28px);padding:70px 0 205px}.hero h1{font-size:clamp(2.7rem,14vw,4.2rem)}.stream{height:34%;min-height:200px}.hero-note{font-size:.56rem}.section{padding:66px 0}.grid,.rate-grid,.pay-grid,.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.card{padding:21px}.footer-inner{display:block}.contact-box .button{width:100%}.form-actions{align-items:stretch}.form-actions .button{width:100%}}
-    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+    :root{
+      --bg:#090811;
+      --bg-2:#0e0a17;
+      --panel:#12101d;
+      --panel-2:#171420;
+      --glass:rgba(255,255,255,.05);
+      --line:rgba(255,255,255,.10);
+      --text:#f4f1f9;
+      --muted:#d0c7de;
+      --muted-2:#a49bb5;
+      --purple:#3A0463;
+      --purple-2:#60139A;
+      --purple-3:#9e64d8;
+      --blue:#8dbaf9;
+      --pink:#f6b4eb;
+      --mint:#8ff0c2;
+      --shadow:0 28px 70px rgba(30,7,40,.42);
+      --max:1180px;
+    }
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;line-height:1.6;overflow-x:hidden}img,svg{max-width:100%;display:block}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{width:min(var(--max),calc(100% - 32px));margin-inline:auto}.skip{position:absolute;left:-10000px}.skip:focus{left:18px;top:18px;background:#fff;color:#000;padding:10px;z-index:200}.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.8,.2,1)}.reveal.in-view{opacity:1;transform:none}
+    .progress{position:fixed;inset:0 auto auto 0;height:3px;width:0;background:linear-gradient(90deg,var(--purple),var(--purple-3),var(--blue));z-index:200;box-shadow:0 0 18px rgba(171,120,255,.8)}
+    .topbar{position:sticky;top:0;z-index:50;background:rgba(9,8,17,.7);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;justify-content:space-between;align-items:center;min-height:78px}
+    .brand{font-family:'Manrope',sans-serif;font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.82rem;display:inline-flex;flex-direction:column;line-height:1.1}
+    .brand small{font-size:.56rem;letter-spacing:.18em;color:#d7c6f1}
+    .nav-links{display:flex;align-items:center;gap:22px}
+    .nav-links a{color:#efe9f6;font-size:.75rem;letter-spacing:.1em;text-transform:uppercase;opacity:.82;transition:opacity .2s,color .2s}
+    .nav-links a:hover,.nav-links a[aria-current="location"]{color:#f0d8ff;opacity:1}
+    .nav-cta,.button,.copy-btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:12px 22px;border:none;border-radius:999px;background:linear-gradient(135deg,var(--purple),var(--purple-2));color:#fff;font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.72rem;box-shadow:0 12px 30px rgba(96,19,154,.45);transition:transform .2s,filter .2s,box-shadow .2s}
+    .nav-cta:hover,.button:hover,.copy-btn:hover{transform:translateY(-2px);filter:brightness(1.1);box-shadow:0 16px 36px rgba(134,70,206,.38)}
+    .button.secondary{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.14);box-shadow:none}.button.secondary:hover{filter:brightness(1.1)}
+    .menu{display:none}
+    .menu summary{list-style:none;padding:11px 14px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);cursor:pointer;color:#fff}
+    .menu summary::-webkit-details-marker{display:none}
+    .mobile-links{display:grid;gap:6px;position:absolute;right:16px;top:72px;min-width:250px;padding:12px;border:1px solid var(--line);background:rgba(15,11,21,.96);border-radius:16px;box-shadow:var(--shadow)}
+    .mobile-links a{padding:10px 12px;border-radius:10px;color:#f3ebff}
+    .mobile-links a:hover{background:rgba(255,255,255,.04)}
+
+    .hero{
+      position:relative;min-height:calc(100svh - 78px);display:grid;place-items:center;overflow:hidden;background:
+        radial-gradient(circle at 18% 28%, rgba(117,77,182,.30), transparent 18%),
+        radial-gradient(circle at 72% 22%, rgba(122,167,255,.24), transparent 17%),
+        radial-gradient(circle at 55% 58%, rgba(235,131,217,.12), transparent 18%),
+        linear-gradient(180deg,#090811 0%,#0E0C15 36%,#08070d 100%);
+      border-bottom:1px solid var(--line)
+    }
+    .hero::before,.hero::after{content:"";position:absolute;border-radius:50%;filter:blur(12px);pointer-events:none}
+    .hero::before{width:420px;height:420px;left:-100px;top:120px;background:radial-gradient(circle,rgba(129,86,185,.28),transparent 62%);animation:floatOrb 14s ease-in-out infinite alternate}
+    .hero::after{width:500px;height:500px;right:-150px;top:-40px;background:radial-gradient(circle,rgba(112,154,255,.18),transparent 65%);animation:floatOrb 17s ease-in-out infinite alternate-reverse}
+    .hero-inner{position:relative;width:min(1020px,calc(100% - 32px));padding:90px 0 240px;z-index:2;animation:heroFade .9s ease-out both}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;padding:7px 14px;border-radius:999px;background:rgba(112,49,178,.15);border:1px solid rgba(217,184,245,.38);color:#efe3ff;letter-spacing:.14em;text-transform:uppercase;font-size:.66rem;font-weight:700}
+    .eyebrow .pulse{width:8px;height:8px;border-radius:50%;background:var(--mint);box-shadow:0 0 16px rgba(143,240,194,.95);animation:pulse 1.8s infinite}
+    .hero h1{font-family:'Manrope',sans-serif;font-size:clamp(3.2rem,8vw,6.7rem);line-height:.96;letter-spacing:-.07em;margin:20px 0 18px;font-weight:300;max-width:880px}
+    .hero h1 .violet{color:#e8d2ff;text-shadow:0 0 40px rgba(255,255,255,.08)}
+    .hero h1 .blue{color:#d7e8ff;text-shadow:0 0 32px rgba(144,199,255,.20)}
+    .hero-copy{max-width:760px;margin:0 auto;text-align:center}
+    .hero-copy p{margin:0 auto 28px;max-width:680px;color:var(--muted);font-size:clamp(1rem,2vw,1.2rem)}
+    .hero-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+    .stream{position:absolute;left:0;right:0;bottom:-12px;height:38%;pointer-events:none;opacity:.9;z-index:1}
+    .stream .grid{stroke:rgba(255,255,255,.12);stroke-width:1}
+    .stream .band{fill:none;stroke:url(#glowBand);stroke-width:3;stroke-linecap:round;stroke-dasharray:12 18;animation:flow 18s linear infinite}
+    .stream .band.b2{stroke-width:2.2;opacity:.7;animation-duration:24s;animation-direction:reverse}
+    .stream .band.b3{stroke-width:1.6;opacity:.56;animation-duration:30s}
+    .hero-note{position:absolute;left:0;right:0;bottom:20px;z-index:2;text-align:center;color:#d4cbe0;font-size:.64rem;letter-spacing:.2em;text-transform:uppercase;opacity:.8}
+    .spark{position:absolute;border-radius:50%;background:rgba(255,255,255,.85);box-shadow:0 0 12px rgba(255,255,255,.7),0 0 22px rgba(171,120,255,.7);animation:sparkle 5s ease-in-out infinite}
+    .spark.s1{width:5px;height:5px;left:20%;top:28%}
+    .spark.s2{width:6px;height:6px;right:18%;top:34%;animation-delay:1.2s}
+    .spark.s3{width:4px;height:4px;left:60%;top:50%;animation-delay:2.1s}
+    .spark.s4{width:5px;height:5px;right:40%;top:58%;animation-delay:3s}
+
+    .section{padding:88px 0;position:relative}
+    .section.soft{background:linear-gradient(180deg,#100d18 0%,#0b0a12 100%)}
+    .section-head{max-width:720px;margin-bottom:36px}
+    .kicker{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:#d7c7f1;font-weight:700}
+    h2{font-family:'Manrope',sans-serif;font-size:clamp(2.2rem,5vw,4rem);line-height:1.04;letter-spacing:-.06em;margin:10px 0 12px;font-weight:300}
+    .section-head p{margin:0;color:var(--muted);font-size:1rem}
+    .accent{color:#f0d8ff}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .card{position:relative;overflow:hidden;padding:26px 24px;border-radius:20px;background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid rgba(255,255,255,.08);box-shadow:0 10px 30px rgba(0,0,0,.12);transition:transform .25s,border-color .25s,box-shadow .25s}
+    .card:hover {transform:translateY(-7px);border-color:rgba(187,141,239,.5);box-shadow:0 30px 56px rgba(46,13,69,.22)}
+    .card:before{content:"";position:absolute;inset:-1px;pointer-events:none;background:radial-gradient(circle at var(--mx,50%) var(--my,50%), rgba(160,116,216,.22), transparent 38%);opacity:0;transition:opacity .2s}
+    .card:hover:before{opacity:1}
+    .card .icon{font-size:1.7rem;display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:14px;background:linear-gradient(135deg,rgba(96,19,154,.28),rgba(198,145,255,.08));border:1px solid rgba(255,255,255,.08)}
+    .card h3{font-family:'Manrope',sans-serif;font-size:1.3rem;margin:18px 0 10px;font-weight:600}
+    .card p{margin:0 0 16px;color:var(--muted);font-size:.93rem}
+    .text-link{color:#f2d8ff;font-weight:700;letter-spacing:.04em;font-size:.8rem;text-transform:uppercase}
+    .text-link:hover{text-decoration:underline}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .feature{padding:28px 26px;border-radius:24px;background:linear-gradient(180deg,rgba(97,31,138,.28),rgba(255,255,255,.03));border:1px solid rgba(196,145,255,.27);box-shadow:var(--shadow);transition:transform .25s,border-color .25s}
+    .feature:hover{transform:translateY(-4px);border-color:rgba(196,145,255,.45)}
+    .feature h3{font-family:'Manrope',sans-serif;font-size:1.55rem;margin:12px 0 10px;font-weight:600}
+    .feature p,.feature li{color:var(--muted)}
+    .feature ul{margin:14px 0 0;padding-left:18px}
+    .feature li{padding:4px 0}
+    .pill{display:inline-flex;align-items:center;padding:5px 11px;border-radius:999px;background:rgba(126,72,197,.16);border:1px solid rgba(255,255,255,.12);color:#efe3ff;font-size:.68rem;letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+    .rate-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .rate{padding:18px;border-radius:18px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.1)}
+    .rate h3{font-size:.9rem;text-transform:uppercase;letter-spacing:.12em;color:#f0d8ff;margin:0 0 8px}
+    .price{font-family:'Manrope',sans-serif;font-size:1.7rem;font-weight:700;color:#fff;margin-bottom:6px}
+    .rate p{color:var(--muted);font-size:.78rem;margin:0}
+    .notice{margin-top:18px;padding:16px 18px;border-left:4px solid rgba(188,137,233,.9);background:rgba(96,19,154,.18);border-radius:0 12px 12px 0;color:#f4ecff;font-size:.84rem}
+    .tag-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+    .tag-list span{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);color:#f0eaf8;font-size:.72rem;letter-spacing:.04em}
+    .details{margin-top:18px;border:1px solid rgba(255,255,255,.1);border-radius:16px;background:rgba(255,255,255,.02)}
+    .details summary{cursor:pointer;padding:18px 20px;font-weight:700;list-style:none}
+    .details summary::-webkit-details-marker{display:none}
+    .details-content{padding:0 20px 18px;color:var(--muted)}
+    .contact-box{padding:36px;border-radius:24px;background:linear-gradient(135deg,rgba(58,4,99,.58),rgba(96,19,154,.20) 48%,rgba(17,15,26,.96));border:1px solid rgba(255,255,255,.12);box-shadow:var(--shadow)}
+    .contact-box h2{max-width:700px}
+    .contact-box p{color:var(--muted)}
+    .form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:24px}
+    .field{display:grid;gap:8px}
+    .field.full{grid-column:1/-1}
+    .field label{color:#f4eafc;font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase}
+    .field input,.field select,.field textarea{width:100%;min-height:52px;padding:14px 15px;border-radius:12px;border:1px solid rgba(255,255,255,.12);background:rgba(13,11,17,.7);color:#fff;outline:none;transition:border-color .2s,box-shadow .2s}
+    .field input::placeholder,.field textarea::placeholder{color:#b5a7c6}
+    .field input:focus,.field select:focus,.field textarea:focus{border-color:rgba(206,174,254,.8);box-shadow:0 0 0 3px rgba(150,102,214,.18)}
+    .field textarea{min-height:126px;resize:vertical}
+    .consent{display:flex;align-items:flex-start;gap:10px;margin:18px 0 14px;color:var(--muted);font-size:.8rem}
+    .consent input{margin-top:4px;accent-color:#9f62d7}
+    .form-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+    .review-panel{margin-top:18px;padding:18px;border-radius:18px;border:1px solid rgba(255,255,255,.12);background:rgba(10,8,13,.35)}
+    .review-panel h3{margin:0 0 8px;font-size:1rem;font-family:'Manrope',sans-serif}
+    .review-panel p{color:var(--muted);margin:0 0 12px;font-size:.86rem}
+    .review-panel textarea{width:100%;min-height:180px;background:rgba(10,8,13,.7);color:#fff;resize:vertical;border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:14px}
+    .pay-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:18px}
+    .pay-card{padding:20px 18px;border-radius:18px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.02)}
+    .pay-card h3{font-family:'Manrope',sans-serif;margin:0 0 8px;font-size:1rem}
+    .pay-number{font-family:'Manrope',sans-serif;font-size:1.3rem;font-weight:700;color:#f5ebff;margin:8px 0 14px}
+    .copy-btn{background:linear-gradient(135deg,#5a1d8a,#7b38b9);padding:10px 16px;font-size:.7rem}
+    .pay-disclaimer{margin-top:16px;color:var(--muted);font-size:.82rem}
+    .about{display:grid;grid-template-columns:.8fr 1.2fr;gap:32px;align-items:center}
+    .about-mark{min-height:260px;display:grid;place-items:center;border-radius:28px;background:radial-gradient(circle at 50% 30%, rgba(161,106,220,.35), rgba(59,11,87,.2) 32%, rgba(9,8,17,.75) 70%);border:1px solid rgba(255,255,255,.08);font-family:'Manrope',sans-serif;font-weight:300;font-size:clamp(4rem,9vw,7rem);letter-spacing:-.12em;color:#f4dfff;box-shadow:0 25px 70px rgba(48,17,75,.3)}
+    .about-copy p{color:var(--muted);font-size:1rem}
+    .footer{padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted-2);font-size:.8rem}
+    .footer-inner{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+    .footer a{color:#f0d8ff}
+    .to-top{position:fixed;right:26px;bottom:26px;width:48px;height:48px;border-radius:50%;border:1px solid rgba(255,255,255,.12);background:linear-gradient(135deg,var(--purple),var(--purple-2));box-shadow:0 20px 40px rgba(96,19,154,.35);color:#fff;font-size:1.2rem;opacity:0;pointer-events:none;transform:translateY(10px);transition:opacity .2s,transform .2s}
+    .to-top.visible{opacity:1;pointer-events:auto;transform:none}
+    @keyframes floatOrb{to{transform:translate(40px,30px) scale(1.15)}}
+    @keyframes pulse{0%,100%{transform:scale(1);box-shadow:0 0 16px rgba(143,240,194,.95)}50%{transform:scale(1.2);box-shadow:0 0 22px rgba(143,240,194,1)}}
+    @keyframes flow{to{stroke-dashoffset:-420}}@keyframes sparkle{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.5)}}@keyframes heroFade{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+    @media(max-width: 880px){
+      .nav-links{display:none}. .menu{display:block}. .grid{grid-template-columns:repeat(2,minmax(0,1fr))}. .rate-grid{grid-template-columns:repeat(2,minmax(0,1fr))}. .split,.about{grid-template-columns:1fr}. .hero-inner{padding-bottom:220px}
+    }
+    @media(max-width: 560px){
+      .wrap{width:calc(100% - 24px)}.hero-inner{padding-top:70px;padding-bottom:200px}. .grid,.rate-grid,.pay-grid,.form-grid{grid-template-columns:1fr}. .nav-cta{display:none}. .hero h1{font-size:clamp(2.7rem,15vw,4.5rem)}.stream{height:28%;min-height:160px}. .section{padding:72px 0}. .contact-box{padding:22px}. .button,.nav-cta{width:100%}. .form-actions{flex-direction:column;align-items:stretch}. .hero-actions{flex-direction:column}. .footer-inner{display:block}
+    }
+    @media(prefers-reduced-motion: reduce){
+      *,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important}
+      .reveal{opacity:1;transform:none}
+    }
   </style>
 </head>
 <body>
-  <div class="progress" id="progress" aria-hidden="true"></div><a class="skip" href="#main">Skip to content</a>
-  <header class="topbar"><div class="wrap nav"><a class="brand" href="#top" aria-label="Narmae Wellness Hub home">NARMAE <span>WELLNESS HUB · ANTIPOLO</span></a>
-    <nav class="links" aria-label="Main navigation"><a href="#services">Wellness</a><a href="#training">Training</a><a href="#courses">Courses</a><a href="#business">Organizations</a><a href="#payments">Payments</a><a href="#lead-form">Contact</a></nav>
-    <a class="nav-cta" href="#lead-form">Start an inquiry ↓</a><details class="mobile-nav"><summary aria-label="Open navigation menu">Menu ☰</summary><nav class="mobile-links" aria-label="Mobile navigation"><a href="#services">Wellness services</a><a href="#training">Massage training</a><a href="#courses">Complementary courses</a><a href="#business">Business &amp; outreach</a><a href="#payments">Payment options</a><a href="#lead-form">Inquiry form</a></nav></details>
-  </div></header>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top">NARMAE <small>WELLNESS HUB</small></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Wellness</a>
+        <a href="#training">Training</a>
+        <a href="#courses">Courses</a>
+        <a href="#business">Business</a>
+        <a href="#payments">Payments</a>
+        <a href="#lead-form">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#lead-form">Start inquiry</a>
+      <details class="menu" aria-label="Mobile menu">
+        <summary>Menu</summary>
+        <nav class="mobile-links" aria-label="Mobile navigation">
+          <a href="#services">Wellness</a>
+          <a href="#training">Training</a>
+          <a href="#courses">Courses</a>
+          <a href="#business">Business</a>
+          <a href="#payments">Payments</a>
+          <a href="#lead-form">Contact</a>
+        </nav>
+      </details>
+    </div>
+  </header>
+
   <main id="main">
-    <section class="hero" id="top" aria-labelledby="hero-title"><i class="spark s1"></i><i class="spark s2"></i><i class="spark s3"></i><i class="spark s4"></i>
-      <div class="hero-copy"><div class="eyebrow"><span class="dot" aria-hidden="true"></span> Antipolo, Rizal · Serving the Philippines</div><h1 id="hero-title"><span class="purp">Care.</span> Learning.<br><span class="blue">A clearer way forward.</span></h1><p>Personal wellness services, massage therapy education, and practical support for wellness businesses—guided by Marian B. Diala and Narmae Wellness Hub.</p><div class="hero-actions"><a class="button" href="#lead-form">Tell us what you need ↓</a><a class="button secondary" href="#services">Browse services</a></div></div>
-      <svg class="stream" viewBox="0 0 1440 430" preserveAspectRatio="none" role="img" aria-label="Flowing violet, blue, and pink light streams over a perspective grid"><defs><linearGradient id="flow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60139A"/><stop offset=".35" stop-color="#b37ce0"/><stop offset=".58" stop-color="#91bfff"/><stop offset=".82" stop-color="#9c48c6"/><stop offset="1" stop-color="#efa8e2"/></linearGradient><linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b3fc0" stop-opacity=".48"/><stop offset="1" stop-color="#10121b" stop-opacity="0"/></linearGradient></defs><g class="grid-lines gridmove" stroke="#d5c2e6" stroke-width="1"><path d="M0 180H1440M0 220H1440M0 270H1440M0 330H1440M0 405H1440"/><path d="M720 155L0 430M720 155L170 430M720 155L340 430M720 155L510 430M720 155L650 430M720 155L790 430M720 155L930 430M720 155L1100 430M720 155L1270 430M720 155L1440 430"/></g><path d="M0 277 C180 270 243 117 430 143 S728 290 920 348 S1210 390 1440 316 L1440 430H0Z" fill="url(#fade)" opacity=".65"/><g fill="none" stroke="url(#flow)"><path class="ribbon" d="M-30 295 C170 300 260 112 435 145 S730 292 920 350 S1220 385 1470 315" stroke-width="3"/><path class="ribbon" d="M-30 307 C170 310 266 128 440 158 S735 303 925 361 S1225 395 1470 327" stroke-width="2" opacity=".8"/><path class="ribbon" d="M-30 320 C175 322 270 145 447 172 S740 314 930 372 S1230 407 1470 340" stroke-width="1.7" opacity=".7"/><path class="ribbon" d="M-30 334 C180 335 278 162 455 187 S748 328 938 384 S1238 420 1470 354" stroke-width="1.3" opacity=".58"/><path class="ribbon" d="M-30 348 C185 347 286 180 464 202 S756 340 946 397 S1246 433 1470 368" stroke-width="1" opacity=".48"/></g></svg><div class="hero-note">A calmer path to care, learning &amp; growth</div>
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <span class="spark s1" aria-hidden="true"></span>
+      <span class="spark s2" aria-hidden="true"></span>
+      <span class="spark s3" aria-hidden="true"></span>
+      <span class="spark s4" aria-hidden="true"></span>
+      <div class="hero-inner hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> Antipolo, Rizal · Philippines</div>
+        <h1 id="hero-title"><span class="violet">Care.</span> Learning.<br><span class="blue">A clearer path forward.</span></h1>
+        <p>Luxury wellness sessions, massage therapy learning, and practical growth support designed around your pace, comfort, and goals.</p>
+        <div class="hero-actions">
+          <a class="button" href="#lead-form">Tell us what you need</a>
+          <a class="button secondary" href="#services">Explore services</a>
+        </div>
+      </div>
+      <svg class="stream" viewBox="0 0 1440 430" preserveAspectRatio="none" aria-label="Flowing light bands" role="img">
+        <defs>
+          <linearGradient id="glowBand" x1="0" x2="1" y1="0" y2="0">
+            <stop offset="0%" stop-color="#3A0463"/>
+            <stop offset="30%" stop-color="#8a5fcf"/>
+            <stop offset="60%" stop-color="#9cc9ff"/>
+            <stop offset="100%" stop-color="#f3b6e3"/>
+          </linearGradient>
+        </defs>
+        <g class="grid" stroke="rgba(255,255,255,.10)">
+          <path d="M0 170H1440M0 220H1440M0 270H1440M0 330H1440M0 390H1440"/>
+          <path d="M720 130L0 430M720 130L180 430M720 130L380 430M720 130L560 430M720 130L840 430M720 130L980 430M720 130L1220 430M720 130L1440 430"/>
+        </g>
+        <path d="M0 300C180 300 270 110 440 145S760 310 960 358S1250 410 1440 340L1440 430H0Z" fill="rgba(122,63,176,.18)"/>
+        <path class="band" d="M-30 300C175 300 268 112 440 145S728 300 930 356S1220 390 1470 320"/>
+        <path class="band b2" d="M-30 318C170 320 262 123 434 158S734 312 932 370S1226 400 1470 334"/>
+        <path class="band b3" d="M-30 336C165 337 258 140 430 170S734 325 930 385S1225 412 1470 348"/>
+      </svg>
+      <div class="hero-note">Calm luxury · guided care · real growth</div>
     </section>
-    <section class="section" id="services"><div class="wrap"><div class="section-head"><div class="kicker">For individuals</div><h2>Wellness, made <span class="accent">personal.</span></h2><p>Browse the options, then send one short inquiry. We’ll confirm suitability, location, availability, and the current fee before you book.</p></div><div class="grid">
-      <article class="card"><div class="icon">🌿</div><h3>Therapeutic massage</h3><p>A personalized session with pressure and focus areas discussed with you beforehand.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this →</a></article>
-      <article class="card"><div class="icon">🦶</div><h3>Reflexology</h3><p>Foot and hand pressure-point wellness service. Ask about the session and suitability.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this →</a></article>
-      <article class="card"><div class="icon">🔥</div><h3>Ventosa / cupping</h3><p>Ask about available methods, session details, and whether it is appropriate for you.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this →</a></article>
-      <article class="card"><div class="icon">🪨</div><h3>Hot stone therapy</h3><p>A warm-stone wellness session. Share relevant health considerations before booking.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this →</a></article>
-      <article class="card"><div class="icon">✨</div><h3>Facial &amp; lymphatic modalities</h3><p>Ask about facial sculpting and gentle lymphatic techniques, expectations, and suitability.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this →</a></article>
-      <article class="card"><div class="icon">🏠</div><h3>Home service &amp; consultation</h3><p>Home visits in Antipolo and nearby areas, plus health and business consultations by arrangement.</p><a class="text-link" href="#lead-form" data-interest="Health consultation">Check availability →</a></article>
-    </div><div class="notice">Wellness services are not a substitute for medical diagnosis or treatment. Please consult a licensed healthcare professional for medical concerns and check suitability with us before a session.</div></div></section>
-    <section class="section soft" id="training"><div class="wrap"><div class="section-head"><div class="kicker">For aspiring &amp; practicing therapists</div><h2>Learn with support.<br><span class="accent">Plan your next step.</span></h2><p>Ask about the next batch, course requirements, teaching format, current fees, and what is included before enrolling.</p></div><div class="split">
-      <div class="feature"><span class="pill">DOH LMT REVIEW</span><h3>Prepare with guided support</h3><p>Review and coaching, learning modules, document assistance, certificates, and practical training details are shared during enrollment.</p><ul class="list"><li>Individual or group enrollment</li><li>Online theory and face-to-face practical options</li><li>Remote trainer arrangements may be available</li></ul><a class="button" href="#lead-form" data-interest="DOH LMT review or renewal training">Ask about LMT training →</a></div>
-      <div class="feature"><span class="pill">RENEWAL &amp; CONTINUING LEARNING</span><h3>Keep learning with a clear plan</h3><p>Ask about LMT renewal and complementary courses, including credit eligibility, documents, and enrollment steps.</p><ul class="list"><li>Renewal course information</li><li>Complementary therapy courses</li><li>Online, in-person, blended, or remote options</li></ul><a class="button secondary" href="#courses">Explore course areas ↓</a></div></div><div style="height:24px"></div><div class="rate-grid">
-      <div class="rate"><h3>Registration</h3><div class="price">₱3,603</div><p>Previously listed registration fee. Confirm current amount.</p></div><div class="rate"><h3>Solo promo tuition</h3><div class="price">₱5,143</div><p>Ask whether this promotion is currently available; registration may be additional.</p></div><div class="rate"><h3>Solo regular tuition</h3><div class="price">₱15,897</div><p>Registration listed separately. Confirm inclusions and terms.</p></div><div class="rate"><h3>Group tuition</h3><div class="price">₱10,769 / person</div><p>Previously listed for groups of 8–15; registration may be additional.</p></div><div class="rate"><h3>Remote trainer</h3><div class="price">₱25,000</div><p>Travel, lodging, food, and logistics may be additional.</p></div><div class="rate"><h3>LMT renewal</h3><div class="price">₱3,600</div><p>Previously listed as a 30-credit-unit renewal course; confirm details.</p></div>
-    </div><div class="notice"><strong>Before paying:</strong> Listed fees and promotions may change. Send an inquiry to confirm the total, inclusions, and current batch.</div></div></section>
-    <section class="section" id="courses"><div class="wrap"><div class="section-head"><div class="kicker">Complementary learning</div><h2>Find a course that <span class="accent">fits your goals.</span></h2><p>Choose a subject and ask about availability, prerequisites, credit eligibility, delivery format, and current fees.</p></div><div class="tag-list"><span>Ventosa / Cupping</span><span>Acupressure</span><span>Tuina</span><span>Reflexology</span><span>Lymphatic techniques</span><span>Facial sculpting</span><span>Stretching &amp; recovery</span><span>Hot stone</span><span>Xiamen foot modality</span><span>Aromatherapy blending</span><span>Nervous system wellness</span><span>Cranial &amp; torso release</span><span>Myofascial release</span><span>Massage fundamentals</span><span>Wellness &amp; lifestyle</span></div><div class="notice">A previous site listed a “choice of 2 for the price of 1” offer for selected modalities, with Ventosa/Cupping excluded. Ask if it is still active and which combinations qualify.</div><details class="details"><summary>Previously listed complementary course fees</summary><div class="details-content"><p>Complementary Therapy: ₱4,628 cash or ₱5,143 staggered, plus a listed ₱500 registration fee. Some integrated courses: ₱1,553 plus a listed ₱500 registration fee. The 150-hour Cruise Deep Tissue &amp; Spa course: ₱3,077 per payment term plus a listed ₱500 registration fee. Confirm current fees and course details before enrollment.</p></div></details></div></section>
-    <section class="section soft" id="business"><div class="wrap"><div class="section-head"><div class="kicker">For businesses &amp; organizations</div><h2>Practical collaboration.<br><span class="accent">Clear next steps.</span></h2><p>Support for spas, home-service operators, community programs, events, and organizations. Tell us your goal and location in the inquiry form.</p></div><div class="grid">
-      <article class="card"><div class="icon">🏛️</div><h3>LGU &amp; community outreach</h3><p>Wellness education, demonstrations, and outreach shaped around the organization and project scope.</p><a class="text-link" href="#lead-form" data-interest="LGU outreach, event, or collaboration">Discuss a program →</a></article>
-      <article class="card"><div class="icon">💼</div><h3>Spa &amp; home-service consulting</h3><p>Ask about operations, service standards, pricing, staffing, compliance, and business growth support.</p><div class="price">₱5,143</div><p class="fine">Basic consultation price previously listed; confirm current scope and fee.</p><a class="text-link" href="#lead-form" data-interest="Business consultation">Ask about consulting →</a></article>
-      <article class="card"><div class="icon">🤝</div><h3>Therapist sourcing &amp; training</h3><p>Discuss placement, training, and service needs for spas, hotels, resorts, clinics, and organizations.</p><a class="text-link" href="#lead-form" data-interest="Therapist sourcing or staff training">Share your needs →</a></article>
-      <article class="card"><div class="icon">🎪</div><h3>Events &amp; exhibits</h3><p>Explore speaker, demonstrator, collaboration, and wellness-exhibit participation.</p><a class="text-link" href="#lead-form" data-interest="LGU outreach, event, or collaboration">Discuss an event →</a></article>
-      <article class="card"><div class="icon">📊</div><h3>Business supervision</h3><p>Request a tailored conversation about business oversight, staff learning, operations, and quality.</p><a class="text-link" href="#lead-form" data-interest="Business consultation">Request a discussion →</a></article>
-      <article class="card"><div class="icon">🩺</div><h3>Health consultation</h3><p>One-on-one wellness consultation with Marian; ask about format, availability, and suitability.</p><div class="price">₱1,553</div><p class="fine">Previously listed per-session fee; confirm current amount.</p><a class="text-link" href="#lead-form" data-interest="Health consultation">Ask about a consultation →</a></article>
-    </div></div></section>
-    <section class="section" id="payments"><div class="wrap"><div class="section-head"><div class="kicker">Payment options</div><h2>Pay by transfer <span class="accent">after confirmation.</span></h2><p>First send your inquiry. We’ll confirm the service or course, current total, availability, and recipient details. Then you can make a transfer using your chosen payment app.</p></div><div class="pay-grid"><article class="pay-card"><h3>Maya</h3><div class="pay-number">0966 763 0729</div><button class="copy-btn" type="button" data-copy="09667630729">Copy Maya number</button></article><article class="pay-card"><h3>MariBank</h3><div class="pay-number">0945 413 4783</div><button class="copy-btn" type="button" data-copy="09454194783">Copy MariBank number</button></article></div><p class="pay-disclaimer"><strong>Important:</strong> These are transfer details, not an online checkout. Confirm the recipient/account name and amount with Narmae Wellness Hub before sending money. Payment notifications are delivered by Maya or MariBank to the account holder through their own service, not by this website. Never send a password, PIN, or one-time code.</p></div></section>
-    <section class="section" id="lead-form"><div class="wrap"><div class="contact-box"><div class="kicker">Step 1 · Tell us a little</div><h2>Start with a short <span class="accent">inquiry form.</span></h2><p>Complete the required fields, review your inquiry summary, then choose Messenger to continue. This page does not store or automatically send your information.</p>
-      <form id="leadForm"><div class="form-grid"><div class="field"><label for="leadName">Your name *</label><input id="leadName" name="name" autocomplete="name" required maxlength="100" placeholder="First and last name"></div><div class="field"><label for="leadPhone">Mobile number *</label><input id="leadPhone" name="phone" type="tel" autocomplete="tel" required maxlength="30" placeholder="Best number to reach you"></div><div class="field"><label for="leadInterest">What are you interested in? *</label><select id="leadInterest" name="interest" required><option value="">Choose one</option><option>Wellness session</option><option>DOH LMT review or renewal training</option><option>Complementary therapy course</option><option>Health consultation</option><option>Business consultation</option><option>Therapist sourcing or staff training</option><option>LGU outreach, event, or collaboration</option><option>Other / not sure yet</option></select></div><div class="field"><label for="leadLocation">City / province *</label><input id="leadLocation" name="location" autocomplete="address-level2" required maxlength="100" placeholder="For example: Antipolo, Rizal"></div><div class="field"><label for="leadFormat">Preferred format</label><select id="leadFormat" name="format"><option>Not sure yet</option><option>In-person</option><option>Home service</option><option>Online</option><option>Blended</option><option>Remote trainer / organization visit</option></select></div><div class="field"><label for="leadTiming">Preferred timing</label><input id="leadTiming" name="timing" maxlength="100" placeholder="Flexible or preferred dates"></div><div class="field full"><label for="leadQuestion">What would you like help with?</label><textarea id="leadQuestion" name="question" maxlength="700" placeholder="A short summary is enough. Save detailed or sensitive questions for the private conversation."></textarea></div></div>
-        <label class="consent"><input type="checkbox" id="leadConsent" required><span>I agree to share these inquiry details with Narmae Wellness Hub through Messenger so the Hub can respond. Do not include passwords, PINs, one-time codes, or sensitive medical records.</span></label><div class="form-actions"><button class="button" type="submit">Review my inquiry →</button></div><p id="formStatus" class="form-help" role="status" aria-live="polite">You’ll get a chance to review and copy your message before opening Messenger.</p></form>
-        <div id="reviewPanel" class="review-panel" hidden><h3>Review your inquiry</h3><p>Copy this message, then open Messenger and paste it into the chat. Press Send in Messenger to submit it to the Hub.</p><textarea id="inquiryDraft" aria-label="Your inquiry message" readonly></textarea><div class="form-actions"><button class="button" id="copyInquiry" type="button">Copy inquiry</button><a class="button secondary" id="openMessenger" href="https://m.me/NarmaeWellnessHub" target="_blank" rel="noopener">Open Messenger ↗</a><button class="copy-btn" id="editInquiry" type="button">Edit details</button></div></div>
-      </div></div></section>
-    <section class="section soft" id="about"><div class="wrap about"><div class="about-mark" aria-hidden="true">NWH</div><div class="about-copy"><div class="kicker">The person behind the practice</div><h2>Meet Marian <span class="accent">B. Diala.</span></h2><p>Founder and CEO of Narmae Wellness Hub in Mambugan, Antipolo. The business information supplied for this website describes Marian as a DOH-accredited Massage Therapy Trainer, Licensed Massage Therapist, and naturopathic practitioner.</p><p>The Hub brings together wellness services, massage therapy education, complementary courses, business consultation, therapist sourcing, and community collaboration.</p><p><strong>More detail needed?</strong> Submit the short inquiry first, then use the private Messenger conversation for fuller questions and next steps.</p><a class="text-link" href="#lead-form">Start your inquiry →</a></div></div></section>
+
+    <section class="section" id="services">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">For individuals</div>
+          <h2>Wellness, made <span class="accent">personal.</span></h2>
+          <p>Choose a service that fits your pace and goals. Send a short inquiry first and we’ll confirm availability, suitability, and pricing before booking.</p>
+        </div>
+        <div class="grid">
+          <article class="card reveal"><div class="icon">🌿</div><h3>Therapeutic massage</h3><p>Restorative bodywork tailored to pressure preferences, tension areas, and recovery goals.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this</a></article>
+          <article class="card reveal"><div class="icon">🦶</div><h3>Reflexology</h3><p>Grounding pressure-point therapy for relaxation, circulation, and whole-body ease.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this</a></article>
+          <article class="card reveal"><div class="icon">🔥</div><h3>Ventosa / Cupping</h3><p>Targeted treatment plans for recovery, circulation, and muscle release when appropriate.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this</a></article>
+          <article class="card reveal"><div class="icon">🪨</div><h3>Hot stone therapy</h3><p>Warm, deeply soothing sessions designed to ease tension and restore calm energy.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this</a></article>
+          <article class="card reveal"><div class="icon">✨</div><h3>Facial &amp; lymphatic care</h3><p>Gentle facial and lymphatic modalities to support glow, balance, and lightness.</p><a class="text-link" href="#lead-form" data-interest="Wellness session">Ask about this</a></article>
+          <article class="card reveal"><div class="icon">🏠</div><h3>Home service &amp; consultation</h3><p>In-home wellness sessions and consults arranged depending on your needs and area.</p><a class="text-link" href="#lead-form" data-interest="Health consultation">Check availability</a></article>
+        </div>
+        <div class="notice reveal">Wellness services are not a substitute for medical diagnosis or treatment. Please consult a licensed healthcare professional for medical concerns before booking a session.</div>
+      </div>
+    </section>
+
+    <section class="section soft" id="training">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">For aspiring &amp; practicing therapists</div>
+          <h2>Learn with support.<br><span class="accent">Plan your next step.</span></h2>
+          <p>Ask about batches, pathway options, and current fees before enrolling. We’ll guide you through the enrollment details, format, and requirements.</p>
+        </div>
+        <div class="split">
+          <div class="feature reveal">
+            <span class="pill">DOH LMT Review</span>
+            <h3>Prepare with guided support</h3>
+            <p>Review sessions, document guidance, and practical learning support designed to help you move forward with clarity.</p>
+            <ul>
+              <li>Individual or group enrollment</li>
+              <li>Live practical guidance and review support</li>
+              <li>Online, blended, and in-person modes may be available</li>
+            </ul>
+            <div style="height:16px"></div>
+            <a class="button" href="#lead-form" data-interest="DOH LMT review or renewal training">Ask about training</a>
+          </div>
+          <div class="feature reveal">
+            <span class="pill">Renewal &amp; continuing learning</span>
+            <h3>Keep learning with a clear plan</h3>
+            <p>Ask about modular learning pathways, course packages, and complementary subjects that fit your schedule and direction.</p>
+            <ul>
+              <li>Renewal course information</li>
+              <li>Complementary therapy pathways</li>
+              <li>Flexible and blended formats</li>
+            </ul>
+            <div style="height:16px"></div>
+            <a class="button secondary" href="#courses">Explore course areas</a>
+          </div>
+        </div>
+        <div style="height:24px"></div>
+        <div class="rate-grid">
+          <div class="rate reveal"><h3>Registration</h3><div class="price">₱3,603</div><p>Previously listed. Confirm current amount before paying.</p></div>
+          <div class="rate reveal"><h3>Promo tuition</h3><div class="price">₱5,143</div><p>Ask whether the current promotion is still active.</p></div>
+          <div class="rate reveal"><h3>Regular tuition</h3><div class="price">₱15,897</div><p>Registration may be separate. Confirm inclusions.</p></div>
+          <div class="rate reveal"><h3>Group tuition</h3><div class="price">₱10,769 / person</div><p>Previously listed for group arrangements. Confirm the current format.</p></div>
+          <div class="rate reveal"><h3>Remote trainer</h3><div class="price">₱25,000</div><p>Travel and accommodation may be separate.</p></div>
+          <div class="rate reveal"><h3>LMT renewal</h3><div class="price">₱3,600</div><p>Previously listed as a 30-credit-unit renewal course.</p></div>
+        </div>
+        <div class="notice reveal"><strong>Before paying:</strong> Listed fees and promotions may change. Send an inquiry to confirm the total, inclusions, and current batch.</div>
+      </div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Complementary learning</div>
+          <h2>Find a course that <span class="accent">fits your goals.</span></h2>
+          <p>Explore learning pathways and ask about current availability, delivery format, course inclusions, and prerequisites.</p>
+        </div>
+        <div class="tag-list reveal">
+          <span>Ventosa / Cupping</span>
+          <span>Acupressure</span>
+          <span>Tuina</span>
+          <span>Reflexology</span>
+          <span>Lymphatic techniques</span>
+          <span>Facial sculpting</span>
+          <span>Hot stone</span>
+          <span>Xiamen foot modality</span>
+          <span>Aromatherapy blending</span>
+          <span>Myofascial release</span>
+          <span>Massage fundamentals</span>
+          <span>Wellness &amp; lifestyle</span>
+        </div>
+        <div class="notice reveal">A previous site mentioned a “choice of 2 for the price of 1” offer for some selected modalities, with Ventosa/Cupping excluded. Ask if it is still active and which combinations qualify.</div>
+        <details class="details reveal">
+          <summary>Previously listed complementary course fees</summary>
+          <div class="details-content">
+            <p>Complementary Therapy: ₱4,628 cash or ₱5,143 staggered, plus a listed ₱500 registration fee. Some integrated courses: ₱1,553 plus a listed ₱500 registration fee. The 150-hour Cruise Deep Tissue &amp; Spa course: ₱3,077 per payment term plus a listed ₱500 registration fee. Confirm current fees and course details before enrollment.</p>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section soft" id="business">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">For businesses &amp; organizations</div>
+          <h2>Practical collaboration.<br><span class="accent">Clear next steps.</span></h2>
+          <p>Support for wellness businesses, spa operations, community initiatives, and event collaborations—tailored to your needs.</p>
+        </div>
+        <div class="grid">
+          <article class="card reveal"><div class="icon">🏛️</div><h3>LGU &amp; community outreach</h3><p>Wellness education, topic-based demos, and outreach activities built around your audience and project scope.</p><a class="text-link" href="#lead-form" data-interest="LGU outreach, event, or collaboration">Discuss a program</a></article>
+          <article class="card reveal"><div class="icon">💼</div><h3>Spa &amp; home-service consulting</h3><p>Support on service operations, pricing structure, staffing, and business growth planning.</p><div class="price" style="font-size:1.2rem;margin:0 0 6px;">₱5,143</div><p>Basic consultation price previously listed; confirm current scope and fees.</p><a class="text-link" href="#lead-form" data-interest="Business consultation">Ask about consulting</a></article>
+          <article class="card reveal"><div class="icon">🤝</div><h3>Therapist sourcing &amp; training</h3><p>Discuss staffing, practical training, and service support for spas, clinics, resorts, and local organizations.</p><a class="text-link" href="#lead-form" data-interest="Therapist sourcing or staff training">Share your needs</a></article>
+          <article class="card reveal"><div class="icon">🎪</div><h3>Events &amp; exhibits</h3><p>Speaker, demonstrator, and collaborative wellness participation for events and public engagement.</p><a class="text-link" href="#lead-form" data-interest="LGU outreach, event, or collaboration">Discuss an event</a></article>
+          <article class="card reveal"><div class="icon">📊</div><h3>Business supervision</h3><p>Operational guidance and wellness-program oversight for businesses seeking clearer systems and standards.</p><a class="text-link" href="#lead-form" data-interest="Business consultation">Request a discussion</a></article>
+          <article class="card reveal"><div class="icon">🩺</div><h3>Health consultation</h3><p>One-on-one wellness consultation with Marian. Ask about format, availability, and suitability.</p><div class="price" style="font-size:1.2rem;margin:0 0 6px;">₱1,553</div><p>Previously listed as a session fee. Confirm before scheduling.</p><a class="text-link" href="#lead-form" data-interest="Health consultation">Ask about consultation</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="payments">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div class="kicker">Payment options</div>
+          <h2>Pay by transfer <span class="accent">after confirmation.</span></h2>
+          <p>Send an inquiry first. We’ll confirm the current total, service details, and account recipient before a transfer is made.</p>
+        </div>
+        <div class="pay-grid">
+          <article class="pay-card reveal"><h3>Maya</h3><div class="pay-number">0966 763 0729</div><button class="copy-btn" type="button" data-copy="09667630729">Copy Maya number</button></article>
+          <article class="pay-card reveal"><h3>MariBank</h3><div class="pay-number">0945 413 4783</div><button class="copy-btn" type="button" data-copy="09454194783">Copy MariBank number</button></article>
+        </div>
+        <p class="pay-disclaimer reveal"><strong>Important:</strong> These are transfer details, not an online checkout. Confirm the recipient/account name and amount with Narmae Wellness Hub before sending money. Payment notifications are delivered by Maya or MariBank through their own services; this website does not trigger or receive those notifications. Never send a password, PIN, or one-time code.</p>
+      </div>
+    </section>
+
+    <section class="section" id="lead-form">
+      <div class="wrap">
+        <div class="contact-box reveal">
+          <div class="kicker">Step 1 · Tell us a little</div>
+          <h2>Start with a short <span class="accent">inquiry form.</span></h2>
+          <p>Complete the short form below. After you hit “Review my inquiry,” you can copy the message and continue in Messenger for the deeper conversation.</p>
+          <form id="leadForm">
+            <div class="form-grid">
+              <div class="field"><label for="leadName">Your name *</label><input id="leadName" name="name" autocomplete="name" required maxlength="100" placeholder="First and last name"></div>
+              <div class="field"><label for="leadPhone">Mobile number *</label><input id="leadPhone" name="phone" type="tel" autocomplete="tel" required maxlength="30" placeholder="Best number to reach you"></div>
+              <div class="field"><label for="leadInterest">What are you interested in? *</label><select id="leadInterest" name="interest" required><option value="">Choose one</option><option>Wellness session</option><option>DOH LMT review or renewal training</option><option>Complementary therapy course</option><option>Health consultation</option><option>Business consultation</option><option>Therapist sourcing or staff training</option><option>LGU outreach, event, or collaboration</option><option>Other / not sure yet</option></select></div>
+              <div class="field"><label for="leadLocation">City / province *</label><input id="leadLocation" name="location" autocomplete="address-level2" required maxlength="100" placeholder="For example: Antipolo, Rizal"></div>
+              <div class="field"><label for="leadFormat">Preferred format</label><select id="leadFormat" name="format"><option>Not sure yet</option><option>In-person</option><option>Home service</option><option>Online</option><option>Blended</option><option>Remote trainer / organization visit</option></select></div>
+              <div class="field"><label for="leadTiming">Preferred timing</label><input id="leadTiming" name="timing" maxlength="100" placeholder="Flexible or preferred dates"></div>
+              <div class="field full"><label for="leadQuestion">What would you like help with?</label><textarea id="leadQuestion" name="question" maxlength="700" placeholder="A short summary is enough. Save detailed or sensitive questions for the Messenger conversation."></textarea></div>
+            </div>
+            <label class="consent"><input type="checkbox" id="leadConsent" required><span>I agree to share these inquiry details with Narmae Wellness Hub through Messenger so the Hub can respond. Do not include passwords, PINs, one-time codes, or sensitive medical records.</span></label>
+            <div class="form-actions">
+              <button class="button" type="submit">Review my inquiry</button>
+              <a class="button secondary" href="https://m.me/NarmaeWellnessHub" target="_blank" rel="noopener">Open Messenger</a>
+            </div>
+            <p id="formStatus" class="pay-disclaimer" role="status" aria-live="polite">You’ll get a chance to review and copy the message before continuing to Messenger.</p>
+          </form>
+
+          <div id="reviewPanel" class="review-panel" hidden>
+            <h3>Review your inquiry</h3>
+            <p>Copy the message below, then paste it into Messenger and press Send to continue the conversation.</p>
+            <textarea id="inquiryDraft" readonly aria-label="Inquiry message"></textarea>
+            <div class="form-actions" style="margin-top:12px;">
+              <button class="button" id="copyInquiry" type="button">Copy inquiry</button>
+              <a class="button secondary" id="openMessenger" href="https://m.me/NarmaeWellnessHub" target="_blank" rel="noopener">Open Messenger</a>
+              <button class="copy-btn" id="editInquiry" type="button">Edit details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="about">
+      <div class="wrap about">
+        <div class="about-mark reveal">NWH</div>
+        <div class="about-copy reveal">
+          <div class="kicker">The person behind the practice</div>
+          <h2>Meet Marian <span class="accent">B. Diala.</span></h2>
+          <p>Founder and CEO of Narmae Wellness Hub in Mambugan, Antipolo. The business information supplied for this website describes Marian as a DOH-accredited Massage Therapy Trainer, Licensed Massage Therapist, and naturopathic practitioner.</p>
+          <p>The Hub brings together wellness services, massage therapy training, complementary courses, business support, and community collaboration.</p>
+          <p><strong>Need more depth?</strong> Save the short inquiry, then continue the private conversation in Messenger where details can be discussed more comfortably.</p>
+          <a class="text-link" href="#lead-form">Start your inquiry</a>
+        </div>
+      </div>
+    </section>
   </main>
-  <footer class="footer"><div class="wrap footer-inner"><span><strong>Narmae Wellness Hub</strong> · Antipolo, Philippines</span><span>Wellness · Training · Business collaboration</span><a href="#lead-form">Inquiry form ↑</a></div></footer><button class="to-top" id="toTop" type="button" aria-label="Back to top">↑</button>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span><strong>Narmae Wellness Hub</strong> · Antipolo, Philippines</span>
+      <span>Wellness · Learning · Business support</span>
+      <a href="#lead-form">Inquiry form</a>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">↑</button>
+
   <script>
-    const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const progress=document.getElementById('progress'),toTop=document.getElementById('toTop');
-    function updateScrollUI(){const max=document.documentElement.scrollHeight-window.innerHeight;progress.style.width=(max>0?window.scrollY/max*100:0)+'%';toTop.classList.toggle('visible',window.scrollY>550)}
-    window.addEventListener('scroll',updateScrollUI,{passive:true});updateScrollUI();toTop.addEventListener('click',()=>window.scrollTo({top:0,behavior:reduceMotion?'auto':'smooth'}));
-    if(!reduceMotion&&'IntersectionObserver'in window){const revealObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('in-view');revealObserver.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll('.section-head,.card,.feature,.rate,.about-mark,.contact-box,.step,.pay-card,.details').forEach((el,i)=>{el.classList.add('reveal');if(i%4===1)el.classList.add('reveal-delay-1');if(i%4===2)el.classList.add('reveal-delay-2');if(i%4===3)el.classList.add('reveal-delay-3');revealObserver.observe(el)})}else{document.querySelectorAll('.section-head,.card,.feature,.rate,.about-mark,.contact-box,.step,.pay-card,.details').forEach(el=>el.classList.add('in-view'))}
-    const hero=document.querySelector('.hero');if(hero&&!reduceMotion){hero.addEventListener('pointermove',event=>{const r=hero.getBoundingClientRect();hero.style.setProperty('--mx',((event.clientX-r.left)/r.width*100)+'%');hero.style.setProperty('--my',((event.clientY-r.top)/r.height*100)+'%')});hero.addEventListener('pointerleave',()=>{hero.style.setProperty('--mx','50%');hero.style.setProperty('--my','45%')})}
-    document.querySelectorAll('.card').forEach(card=>card.addEventListener('pointermove',event=>{const r=card.getBoundingClientRect();card.style.setProperty('--cx',((event.clientX-r.left)/r.width*100)+'%');card.style.setProperty('--cy',((event.clientY-r.top)/r.height*100)+'%')}));
-    const sections=[...document.querySelectorAll('main section[id]')],navLinks=[...document.querySelectorAll('.links a')];if('IntersectionObserver'in window){const navObserver=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){navLinks.forEach(link=>{if(link.getAttribute('href')==='#'+entry.target.id)link.setAttribute('aria-current','location');else link.removeAttribute('aria-current')})}}),{rootMargin:'-25% 0px -65% 0px'});sections.forEach(section=>navObserver.observe(section))}
-    const form=document.getElementById('leadForm'),review=document.getElementById('reviewPanel'),draft=document.getElementById('inquiryDraft');form.addEventListener('submit',event=>{event.preventDefault();if(!form.reportValidity())return;const data=new FormData(form);draft.value=['Hello Narmae Wellness Hub, I am sending an inquiry through your website.','',`Name: ${data.get('name')}`,`Mobile: ${data.get('phone')}`,`Interested in: ${data.get('interest')}`,`City / province: ${data.get('location')}`,`Preferred format: ${data.get('format')}`,`Preferred timing: ${data.get('timing')||'Not specified'}`,`Question: ${data.get('question')||'I would like to discuss details privately.'}`,'','Please confirm current availability, total fee, and next steps. Thank you.'].join('\n');review.hidden=false;document.getElementById('formStatus').textContent='Your inquiry is ready. Review it below, copy it, then paste into Messenger.';review.scrollIntoView({behavior:reduceMotion?'auto':'smooth',block:'center'})});
-    document.getElementById('copyInquiry').addEventListener('click',async event=>{const button=event.currentTarget;try{await navigator.clipboard.writeText(draft.value);button.textContent='Copied — paste into Messenger';}catch(error){draft.focus();draft.select();button.textContent='Text selected — copy it';}setTimeout(()=>button.textContent='Copy inquiry',2600)});document.getElementById('editInquiry').addEventListener('click',()=>{review.hidden=true;form.scrollIntoView({behavior:reduceMotion?'auto':'smooth',block:'center'})});
-    document.querySelectorAll('[data-interest]').forEach(link=>link.addEventListener('click',()=>{const select=document.getElementById('leadInterest'),choice=link.dataset.interest,option=[...select.options].find(item=>item.text.toLowerCase()===choice.toLowerCase());if(option)select.value=option.value}));
-    document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{const original=button.textContent;try{await navigator.clipboard.writeText(button.dataset.copy);button.textContent='Copied!'}catch(error){button.textContent='Select the number above to copy'}setTimeout(()=>button.textContent=original,2400)}));
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const progress = document.getElementById('progress');
+    const toTop = document.getElementById('toTop');
+
+    function updateScrollUI(){
+      const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = maxScroll > 0 ? (window.scrollY / maxScroll * 100) + '%' : '0%';
+      toTop.classList.toggle('visible', window.scrollY > 500);
+    }
+    window.addEventListener('scroll', updateScrollUI, { passive: true });
+    updateScrollUI();
+
+    toTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
+
+    const revealItems = document.querySelectorAll('.reveal');
+    if (!reduceMotion && 'IntersectionObserver' in window) {
+      const revealObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      revealItems.forEach(item => revealObserver.observe(item));
+    } else {
+      revealItems.forEach(item => item.classList.add('in-view'));
+    }
+
+    document.querySelectorAll('.card').forEach((card) => {
+      card.addEventListener('pointermove', (event) => {
+        const rect = card.getBoundingClientRect();
+        const x = ((event.clientX - rect.left) / rect.width) * 100;
+        const y = ((event.clientY - rect.top) / rect.height) * 100;
+        card.style.setProperty('--mx', x + '%');
+        card.style.setProperty('--my', y + '%');
+      });
+    });
+
+    if (!reduceMotion) {
+      const hero = document.querySelector('.hero');
+      if (hero) {
+        hero.addEventListener('pointermove', (event) => {
+          const rect = hero.getBoundingClientRect();
+          const x = ((event.clientX - rect.left) / rect.width) * 100;
+          const y = ((event.clientY - rect.top) / rect.height) * 100;
+          hero.style.setProperty('--mx', x + '%');
+          hero.style.setProperty('--my', y + '%');
+        });
+      }
+    }
+
+    const sections = [...document.querySelectorAll('main section[id]')];
+    const navLinks = [...document.querySelectorAll('.nav-links a')];
+    if ('IntersectionObserver' in window) {
+      const navObserver = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            navLinks.forEach((link) => {
+              const href = link.getAttribute('href');
+              link.setAttribute('aria-current', href === '#' + entry.target.id ? 'location' : 'false');
+              if (href === '#' + entry.target.id) {
+                link.setAttribute('aria-current', 'location');
+              } else {
+                link.removeAttribute('aria-current');
+              }
+            });
+          }
+        });
+      }, { rootMargin: '-30% 0px -55% 0px' });
+      sections.forEach((section) => navObserver.observe(section));
+    }
+
+    const form = document.getElementById('leadForm');
+    const reviewPanel = document.getElementById('reviewPanel');
+    const inquiryDraft = document.getElementById('inquiryDraft');
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+
+      const data = new FormData(form);
+      const message = [
+        'Hello Narmae Wellness Hub, I am sending an inquiry through your website.',
+        '',
+        'Name: ' + data.get('name'),
+        'Mobile: ' + data.get('phone'),
+        'Interested in: ' + data.get('interest'),
+        'City / province: ' + data.get('location'),
+        'Preferred format: ' + data.get('format'),
+        'Preferred timing: ' + (data.get('timing') || 'Not specified'),
+        'Question: ' + (data.get('question') || 'I would like to discuss details privately.'),
+        '',
+        'Please confirm current availability, total fee, and next steps. Thank you.'
+      ].join('\n');
+
+      inquiryDraft.value = message;
+      reviewPanel.hidden = false;
+      document.getElementById('formStatus').textContent = 'Your inquiry is ready to review. Copy it and paste it into Messenger.';
+      reviewPanel.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'nearest' });
+    });
+
+    document.getElementById('copyInquiry').addEventListener('click', async () => {
+      const button = document.getElementById('copyInquiry');
+      try {
+        await navigator.clipboard.writeText(inquiryDraft.value);
+        button.textContent = 'Copied';
+      } catch (error) {
+        inquiryDraft.focus();
+        inquiryDraft.select();
+        button.textContent = 'Select text manually';
+      }
+      setTimeout(() => button.textContent = 'Copy inquiry', 1800);
+    });
+
+    document.getElementById('editInquiry').addEventListener('click', () => {
+      reviewPanel.hidden = true;
+      form.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+    });
+
+    document.querySelectorAll('[data-interest]').forEach((link) => {
+      link.addEventListener('click', () => {
+        const target = document.getElementById('leadInterest');
+        const value = link.getAttribute('data-interest');
+        const match = [...target.options].find((option) => option.text.toLowerCase() === value.toLowerCase() || option.text.toLowerCase().includes(value.toLowerCase()));
+        if (match) target.value = match.value;
+      });
+    });
+
+    document.querySelectorAll('[data-copy]').forEach((button) => {
+      button.addEventListener('click', async () => {
+        const original = button.textContent;
+        try {
+          await navigator.clipboard.writeText(button.dataset.copy);
+          button.textContent = 'Copied';
+        } catch (error) {
+          button.textContent = 'Copy unavailable';
+        }
+        setTimeout(() => button.textContent = original, 1800);
+      });
+    });
   </script>
 </body>
 </html>
